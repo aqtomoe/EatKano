@@ -401,10 +401,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
         // TODO 添加反馈
         if (mode === MODE_ENDLESS) return '';
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
+        if (score <= 49) return '呃。。为大小姐更努力些吧';
+        if (score <= 99) return '为大小姐更努力些吧';
+        if (score <= 149) return '哼唧';
+        if (score <= 199) return '你在对团子做什么啊';
         return '人？';
     }
 
